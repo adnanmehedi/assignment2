@@ -16,12 +16,14 @@
                     <li><a href="">Service</a></li>
                     <li><a href="">Contact</a></li>
                     <li><a href="">About</a></li>
+                    
                 </ul>
+                <img class="menu-icon" src="images/align-justify.png" alt="">
             </nav>
             <div class="hero">
                 <div class="hero-content">
                     <h1>Get body in shape & stay healthy</h1>
-                    <div><p>A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p></div>
+                    <p class="hero-description">A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>
                     <div class="hero-btn-wrapper">
                         <a href="" class="btn-primary">Join Club Now!</a>
                         <!-- <button class="btn-primary">Join Club Now</button> -->
@@ -53,7 +55,7 @@
             </div>
         </div>
 
-        <section class="suggenstion">
+        <section class="suggenstion .ptb50">
             <div class="container">
                 <div class="suggestion-heading">
                     <h2>Change Your Habits</h2>
@@ -84,13 +86,13 @@
             </div>
         </section>
 
-        <section class="campaign">
+        <section class="campaign .ptb50">
             <div class="container">
                 <div class="campaign-wrapper">
                     <div class="campaign-content">
                         <h2>Run an Extra 
                             Mile Easily</h2>
-                        <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
+                        <p class="mb34">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
                         <a href="" class="btn-primary">Join Now</a>
                     </div>
                     <div class="campaign-img">
@@ -100,44 +102,18 @@
             </div>
         </section>
 
-        <section class="training">
-            <div class="container">
-                <div class="training-heading">
-                    <h2>Trainings and Exercises</h2>
-                    <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
-                </div>
-                <div class="training-box-wrapper">
-                    <div class="training-box">
-                        <p>Lorem Ipsum</p>
-                    </div>
-                    <div class="training-box">
-                        <p>Lorem Ipsum</p>
-                    </div>
-                    <div class="training-box">
-                        <p>Lorem Ipsum</p>
-                    </div>
-                    <div class="training-box">
-                        <p>Lorem Ipsum</p>
-                    </div>
-                    <div class="training-box">
-                        <p>Lorem Ipsum</p>
-                    </div>
-                    <div class="training-box">
-                        <p>Lorem Ipsum</p>
-                    </div>
-                </div>
-            </div>
-        </section>
 
-        <section class="bmi">
+        <section class="bmi ptb50">
             <div class="bmi-heading">
                 <h2>BMI Calculator</h2>
                 <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
             </div>
-            <div class="bmi-content">
-                <div class="container">
+
+
+            <div class="bmi-content mtb50 ">
+                <div class="bmi-content-wrapper container">
                     <div class="bmi-chart">
-                        <h3>BMI Calculator Chart</h3>
+                        <h3 class="mb34">BMI Calculator Chart</h3>
                             <table>
                                 <thead>
                                     <tr>
@@ -165,37 +141,40 @@
                                 </tbody>
                             </table>
                         </div>
+                        <div class="bmi-calculator">
+                            <h3>Calculate your BMI</h3>
+                            <p class="mb34">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+                            <div class="first-input">
+                            <input type="text" placeholder="Height/cm">
+                            <input type="text" placeholder="Weight/kg">
+                            <input type="text" placeholder="Age">
+                            
+                            <select>
+                                <option value="" disabled selected>Sex</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                            </select>
+                        </div>
+                        <div class="second-input">
+                            <select>
+                                <option value="" disabled selected>Select an activity factor</option>
+                                <option value="sedentary">Sedentary</option>
+                                <option value="light">Light activity</option>
+                                <option value="moderate">Moderate activity</option>
+                                <option value="active">Active</option>
+                                <option value="very_active">Very active</option>
+                            </select>
+                        </div>
+                            <div class="calculate-btn">
+                            <a href="" class="btn-primary">Calculate</a></div>
+                        </div>
                     </div>
-                    <div class="bmi-calculator">
-                        <h3>Calculate your BMI</h3>
-                        <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
-                        
-                        <input type="text" placeholder="Height/cm">
-                        <input type="text" placeholder="Weight/kg">
-                        <input type="text" placeholder="Age">
-                        
-                        <select>
-                            <option value="" disabled selected>Sex</option>
-                            <option value="male">Male</option>
-                            <option value="female">Female</option>
-                        </select>
-                        
-                        <select>
-                            <option value="" disabled selected>Select an activity factor</option>
-                            <option value="sedentary">Sedentary</option>
-                            <option value="light">Light activity</option>
-                            <option value="moderate">Moderate activity</option>
-                            <option value="active">Active</option>
-                            <option value="very_active">Very active</option>
-                        </select>
-                    
-                        <a href="" class="btn-primary">Calculate</a>
-                    </div>
+                </div>
                 </div>
             </div>
         </section>
 
-        <section class="team">
+        <section class="team mtb50">
             <div class="container">
                 <div class="team-heading">
                     <h2>Meet Our Team</h2>
@@ -203,36 +182,61 @@
                 </div>
                 <div class="team-box-wrapper">
                     <div class="team-box">
-                        <p>John Doe</p>
+                        <div class="team-image-wrapper"><img src="images/trainer1.png" alt=""></div>
+                       <div class="team-content">
+                        <h5>Jerome Bell</h5>
+                        <p>Trainer</p>
+                    </div>
                     </div>
                     <div class="team-box">
-                        <p>John Doe</p>
+                        <div class="team-image-wrapper"><img src="images/trainer2.png" alt=""></div>
+                       <div class="team-content">
+                        <h5>Cameron Williamson</h5>
+                        <p>Trainer</p>
+                    </div>
                     </div>
                     <div class="team-box">
-                        <p>John Doe</p>
+                        <div class="team-image-wrapper"><img src="images/trainer3.png" alt=""></div>
+                       <div class="team-content">
+                        <h5>Darrell Steward</h5>
+                        <p>Trainer</p>
+                    </div>
                     </div>
                     <div class="team-box">
-                        <p>John Doe</p>
+                        <div class="team-image-wrapper"><img src="images/trainer4.png" alt=""></div>
+                       <div class="team-content">
+                        <h5>Dianne Russell</h5>
+                        <p>Trainer</p>
+                    </div>
                     </div>
                     <div class="team-box">
-                        <p>John Doe</p>
+                        <div class="team-image-wrapper"><img src="images/trainer5.png" alt=""></div>
+                       <div class="team-content">
+                        <h5>Cody Fisher</h5>
+                        <p>Trainer</p>
+                    </div>
                     </div>
                     <div class="team-box">
-                        <p>John Doe</p>
+                        <div class="team-image-wrapper"><img src="images/trainer6.png" alt=""></div>
+                       <div class="team-content">
+                        <h5>Theresa Webb</h5>
+                        <p>Trainer</p>
                     </div>
+                    </div>
+                    
                 </div>
             </div>
         </section>
 
-        <footer>
-            <div class="container">
+        <footer class="mtb50">
+            <div class="container pb0">
                 <div class="footer-wrapper">
                     <div class="footer-block">
-                        <h2>Fitness</h2>
+                        <h2 class="logo-text footer-logo">Fitness</h2>
                         <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
                     </div>
                     <div class="footer-block">
-                        <h2>Get Started</h2>
+                        <h3>Get Started</h2>
                         <ul>
                             <li><a href="">Service</a></li>
                             <li><a href="">Contact Us</a></li>
@@ -241,7 +245,7 @@
                         </ul>
                     </div>
                     <div class="footer-block">
-                        <h2>Get Started</h2>
+                        <h3>Get Started</h2>
                         <ul>
                             <li><a href="">Fitness</a></li>
                             <li><a href="">Platform</a></li>
