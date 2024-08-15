@@ -502,8 +502,7 @@ footer ul li a{
     display: none;
   }
   .nav-hero {
-    padding-top: 50px;
-    margin-top: -30px;
+    padding-top: 30px;
 }
   .suggestion-content{
     grid-template-columns: 1fr;
