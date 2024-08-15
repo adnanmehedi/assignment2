@@ -490,6 +490,9 @@ footer ul li a{
   .hero-content h1{
     width: 80%;
   }
+  .hero-btn-wrapper {
+    gap: 10px;
+}
   .menu-icon{
     display: block;
     width: 24px;
@@ -518,7 +521,7 @@ footer ul li a{
     gap: 20px;
   }
   .hero-btn-wrapper a{
-    padding: 16px 20px;
+    padding: 16px 18px;
   }
   .bmi-heading{
     padding-left: 30px;
