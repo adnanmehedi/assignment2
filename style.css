@@ -501,6 +501,9 @@ footer ul li a{
   .suggestion-content{
     grid-template-columns: 1fr;
   }
+  .campaign{
+    margin-top: 50px;
+  }
   .campaign-wrapper{
     grid-template-columns: 1fr;
     gap: 20px;
@@ -515,6 +518,9 @@ footer ul li a{
   .bmi-content-wrapper{
     grid-template-columns: 1fr;
   }
+  .first-input {
+    gap: 5px;
+}
   .team-box-wrapper{
     grid-template-columns: 1fr;
   }
@@ -526,10 +532,14 @@ footer ul li a{
   }
   .bmi-content-wrapper{
     display: grid;
-    grid-template-columns: 1fr}
+    grid-template-columns: 1fr
+  }
     input , select{
-      padding: 15px 6px;
+      padding: 15px 10px;
     }
+    .first-input select, .first-input input {
+      width: 100%;
+  }
     .bmi-content-wrapper {
       padding-top: 30px;
       padding-bottom: 30px;
@@ -549,4 +559,3 @@ footer ul li a{
     }
   }
 
-@media only screen and (max-width: 992px) {}
