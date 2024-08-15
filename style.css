@@ -102,6 +102,7 @@ img{
 nav{
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .nav-menu{
   box-sizing: border-box;
@@ -279,7 +280,7 @@ background: rgba(255, 255, 255, 0.1);
 
 /*Bmi*/
 .bmi-heading{
-  max-width: 670px
+  max-width: 670px;
   margin: 0 auto;
   margin-bottom: 90px;
 }
@@ -290,7 +291,6 @@ background: rgba(255, 255, 255, 0.1);
 .bmi-content-wrapper{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  align-items: center;
 }
 table {
   border-collapse: collapse; 
@@ -321,6 +321,13 @@ input , select{
   border-radius: 10px;
   border: none;
   color: rgba(255, 255, 255, 0.6);
+}
+select option{
+  background-color: #393939;
+}
+input::placeholder {
+  color: #919191 !important;
+  font-weight: 700;
 }
 .second-input select{
   width: 100%;
@@ -360,6 +367,70 @@ input , select{
   bottom: 10%;
   left: 8%;
 }
+
+/*Team End*/
+
+/* Pricing start */
+.pricing-box{
+  padding-bottom: 20px;
+  border-radius: 20px;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.pricing-heading{
+  max-width: 670px;
+  margin: 0 auto;
+  text-align: center;
+}
+.pricing-box-wrapper{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+}
+.pricing-img{
+  position: relative;
+  margin-bottom: 60px;
+}
+.pricing-amount {
+  padding: 20px;
+  background: #E6533C;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  text-align: center;
+  border: 4px solid #5b4242;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: -47px;
+  left: 35%;
+}
+.pricing-amount h3{
+  font-size: 2.1rem;
+  font-weight: 800;
+}
+.pricing-amount p{
+  color: white;
+}
+.pricing-feature{
+  width: 80%;
+  margin: 0 auto;
+  padding-left: 40px;
+  margin-top: 10px;
+}
+.pricing-feature li{
+  padding: 10px 0px;
+}
+.join-wrapper{
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+/* Footer Start */
 footer{
   background: rgba(255, 255, 255, 0.1);
   
@@ -396,12 +467,30 @@ footer ul li a{
 .menu-icon{
   display: none;
 }
+
+/* Responsive */
+
 @media only screen and (max-width: 576px) {
  
+  .workout-box, .video-box{
+    width: 150px;
+    padding: 10px;
+    height:70px ;
+  }
+  .workout-box p, .video-box p{
+    font-size: 9px;
+  }
+  
   .menu-icon{
     display: block;
     width: 24px;
     height: 24px;
+  }
+  h2{
+    font-size: 2rem;
+  }
+  .workout-box h4{
+    font-size: 1.7rem;
   }
   .nav-menu{
     display: none;
@@ -415,6 +504,9 @@ footer ul li a{
   .campaign-wrapper{
     grid-template-columns: 1fr;
     gap: 20px;
+  }
+  .hero-btn-wrapper a{
+    padding: 16px 20px;
   }
   .bmi-heading{
     padding-left: 30px;
@@ -445,6 +537,16 @@ footer ul li a{
     .bmi-calculator h3{
       margin-top: 20px;
     }
-}
+    .pricing{
+      padding-top: 50px;
+    }
+    .pricing-box-wrapper{
+      grid-template-columns: 1fr;
+    }
+    footer{
+      padding-top: 40px;
+      margin-top: 40px;
+    }
+  }
 
 @media only screen and (max-width: 992px) {}
