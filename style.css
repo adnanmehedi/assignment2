@@ -95,8 +95,6 @@ img{
   padding-bottom: 1.75rem;
 }
 .nav-hero{
-  /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
-  /* background-color: black; */
   background: url("images/Slice\ 1.svg");
   background-size: cover;
 
@@ -503,9 +501,10 @@ footer ul li a{
   .nav-menu{
     display: none;
   }
-  .nav-hero{
-    padding-top: 30px;
-  }
+  .nav-hero {
+    padding-top: 50px;
+    margin-top: -30px;
+}
   .suggestion-content{
     grid-template-columns: 1fr;
   }
