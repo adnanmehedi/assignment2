@@ -527,6 +527,9 @@ footer ul li a{
   .team-box h5{
     font-size: 20px;
   }
+  .team-content p {
+    color: rgb(255 255 255 / 90%);
+}
   .footer-wrapper{
     grid-template-columns: 1fr;
   }
