@@ -492,6 +492,9 @@ footer ul li a{
     width: 24px;
     height: 24px;
   }
+  .nav-hero {
+    background: #161515;
+}
   h2{
     font-size: 2rem;
   }
